@@ -1,4 +1,4 @@
-name: NAStool Package
+name: Meureka-tools Package
 on:
   workflow_dispatch:
   push:

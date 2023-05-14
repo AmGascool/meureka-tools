@@ -1,4 +1,4 @@
-name: NAStool Docker
+name: Meureka-tools Docker
 on:
   workflow_dispatch:
   push:
@@ -53,5 +53,5 @@ jobs:
             linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/nas-tools-unlock:latest
-            ${{ secrets.DOCKER_USERNAME }}/nas-tools-unlock:${{ env.app_version }}
+            ${{ secrets.DOCKER_USERNAME }}/meureka-tools:latest
+            ${{ secrets.DOCKER_USERNAME }}/meureka-tools:${{ env.app_version }}
